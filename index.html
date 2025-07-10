@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Encontre um Advogado - Gabinete Jurídico Sal</title>
+  <meta name="description" content="Procure serviços jurídicos profissionais na Ilha do Sal, Cabo Verde. Gabinete especializado em direito empresarial, familiar, imobiliário e mais." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <div class="top-section">
+      <a href="/" aria-label="Página inicial do Gabinete Jurídico Sal">
+        <img src="assets/logo-sal-law.png" alt="Gabinete Jurídico Sal" width="150" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="/">Início</a></li>
+          <li><a href="/sobre">Sobre</a></li>
+          <li><a href="/servicos">Serviços</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="intro" aria-label="Introdução">
+      <h1>Encontre um Advogado na Ilha do Sal</h1>
+      <p>Procura assistência jurídica? O nosso gabinete oferece serviços especializados com experiência local e atendimento personalizado.</p>
+    </section>
+    <section class="search" aria-label="Pesquisa por serviço jurídico">
+      <h2>Pesquise por Serviço Jurídico</h2>
+      <form action="/pesquisa" method="get">
+        <label for="area">Área Jurídica:</label>
+        <select id="area" name="area">
+          <option value="">Todas as áreas</option>
+          <option value="empresarial">Direito Empresarial</option>
+          <option value="familiar">Direito da Família</option>
+          <option value="imobiliario">Direito Imobiliário</option>
+          <option value="penal">Direito Penal</option>
+          <option value="trabalho">Direito do Trabalho</option>
+          <option value="maritimo">Direito Marítimo</option>
+        </select>
+        <label for="localizacao">Localização:</label>
+        <input type="text" id="localizacao" name="localizacao" placeholder="Santa Maria, Espargos..." />
+        <button type="submit" aria-label="Pesquisar serviço jurídico">Pesquisar</button>
+      </form>
+    </section>
+    <section class="acreditacoes" aria-label="Reconhecimento profissional">
+      <h2>Reconhecimento Profissional</h2>
+      <p>Advogado registado na Ordem dos Advogados de Cabo Verde. Experiência comprovada e compromisso com a ética e a justiça.</p>
+    </section>
+    <section class="ajuda" aria-label="Ajuda e contacto">
+      <h2>Precisa de Ajuda?</h2>
+      <p>Entre em contacto connosco através do <a href="/contacto">formulário online</a> ou ligue para <a href="tel:+2389876543">+238 987 6543</a>.</p>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-top">
+      <div>
+        <h3>Gabinete Jurídico Sal</h3>
+        <ul>
+          <li><a href="/">Início</a></li>
+          <li><a href="/sobre">Sobre</a></li>
+          <li><a href="/servicos">Serviços</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Gabinete Jurídico Sal. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
